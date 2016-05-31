@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Network connectivity"
+        android:summary="Network connectivity required to upload/download data."
+        android:key="Network"
+        android:defaultValue="Wi-Fi"
+        android:entries="@array/NetworkArray"
+        android:entryValues="@array/NetworkValues"
+        />
+
+    <ListPreference
+        android:title="Measure Temperature"
+        android:summary="Choose the type."
+        android:key="Temperature"
+        android:defaultValue="Celsius ºC"
+        android:entries="@array/TemperatureArray"
+        android:entryValues="@array/TemperatureValues"
+        />
+
+    <ListPreference
+        android:title="How to measure data"
+        android:summary="Choose if you want use sensor devices or sensor simulator."
+        android:key="Sensor"
+        android:defaultValue="Sensor simulator"
+        android:entries="@array/SensorArray"
+        android:entryValues="@array/SensorValues"
+        />
+</PreferenceScreen>

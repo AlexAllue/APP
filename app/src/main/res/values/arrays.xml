@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="NetworkArray">
+        <item>Solo con Wi-Fi</item>
+        <item>En cualquier red</item>
+    </string-array>
+    <string-array name="NetworkValues">
+        <item>Wi-Fi</item>
+        <item>Any</item>
+    </string-array>
+    <string-array name="TemperatureArray">
+        <item>Celsius ºC</item>
+        <item>Fahrenheit ºF</item>
+    </string-array>
+    <string-array name="TemperatureValues">
+        <item>Celsius ºC</item>
+        <item>Fahrenheit ºF</item>
+    </string-array>
+    <string-array name="SensorArray">
+        <item>Sensores del móvil</item>
+        <item>Sensor simulator</item>
+    </string-array>
+    <string-array name="SensorValues">
+        <item>Sensor device</item>
+        <item>Sensor simulator</item>
+    </string-array>
+    <string-array name="entries_spinner">
+    <item>Selecciona un motivo...</item>
+    <item>Pregunta</item>
+    <item>Petición</item>
+    <item>Error</item>
+    <item>Lentitud</item>
+    <item>Sensor</item>
+    <item>Otro</item>
+</string-array>
+</resources>

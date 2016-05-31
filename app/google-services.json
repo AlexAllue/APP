@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "152098885748",
+    "project_id": "weathernow-b8825"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152098885748:android:1ffbf25fdc9f63b6",
+        "android_client_info": {
+          "package_name": "com.example.allu.weathernow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfPTOdTrGrwPGwCqyV7BiZK7A5W6liGpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152098885748:android:25e3d0af683e181b",
+        "android_client_info": {
+          "package_name": "com.example.allu.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfPTOdTrGrwPGwCqyV7BiZK7A5W6liGpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

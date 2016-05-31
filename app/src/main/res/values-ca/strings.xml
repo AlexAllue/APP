@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Weather Now</string>
+    <string name="action_settings">Preferences</string>
+
+    <string name="hint_user">Usuari</string>
+    <string name="hint_password">Contrasenya</string>
+    <string name="hint_password_confirm">Confirmar contrasenya</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Nom complet</string>
+    <string name="btn_login">INICIAR SESSIÓ</string>
+    <string name="btn_register">REGISTRAT</string>
+    <string name="btn_link_to_register">¿Encara no tens un compte? ¡Créala ara!</string>
+    <string name="btn_link_to_login">¿Ja tens un compte? Inicia sessió</string>
+    <string name="welcome">Benvingut</string>
+    <string name="btn_logout">DESCONECTARME</string>
+    <string name="wait">Iniciando sesió...</string>
+    <string name="goodbye">Fins aviat</string>
+    <string name="wait2">Tancant sesió...</string>
+    <string name="btn_cancel">CANCEL-LAR</string>
+    <string name="btn_send_email">ENVIAR</string>
+    <string name="btn_search">CERCAR</string>
+    <string name="hint_issue">Assumpte</string>
+    <string name="hint_description">Descripció</string>
+    <string name="hint_town">Població</string>
+    <string name="prompt_spinner">Selecciona el motiu</string>
+    <string name="error_issue">Escriu un assumpte</string>
+    <string name="error_motive">Selecciona un motiu</string>
+    <string name="error_description">Escriu una descripció</string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="recent">RECENTS</string>
+    <string name="all">TOTES</string>
+    <string name="null_user">Escriu un usuari</string>
+    <string name="null_pass">Escriu una contrasenya</string>
+    <string name="null_confirm">Las contrasenyas no coincideixen</string>
+    <string name="null_email">Escriu un email</string>
+    <string name="bar_search">Cercar</string>
+    <string name="bar_map">Mapa</string>
+    <string name="bar_notification">Notificacios</string>
+    <string name="bar_contact">Contacte</string>
+    <string name="null_town">Escriu una població</string>
+    <string name="no_user">El usuari no existeix</string>
+    <string name="no_pass">La contrasenya no es válida</string>
+
+    <string name="temperature">Temperatura</string>
+    <string name="temperatureInfo">0.0ºC</string>
+    <string name="humidity">Humitat</string>
+    <string name="humidityInfo">0.0%</string>
+    <string name="pressure">Presió atmosférica</string>
+    <string name="pressureInfo">0.0hPa</string>
+    <string name="altitude">Altitut</string>
+    <string name="altitudeInfo">0.0m</string>
+    <string name="subirDatos">Pujar dades</string>
+    <string name="fechaSubida">Última pujada: --</string>
+
+    <string name="no_net">No tens conexió a internet</string>
+</resources>

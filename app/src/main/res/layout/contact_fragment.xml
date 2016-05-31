@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <EditText
+        android:id="@+id/issue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="@string/hint_issue"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginTop="30dip"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:prompt="@string/prompt_spinner"
+        android:entries="@array/entries_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/white"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="@string/hint_description"
+        android:padding="10dp"
+        android:layout_marginTop="30dip"/>
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_login_bg"
+        android:text="@string/btn_send_email"
+        android:textColor="@color/btn_login" />
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/error"
+        android:layout_marginTop="20dip"
+        android:textSize="24dp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Conectividad de red"
+        android:summary="Se requiere conexión a internet para subir/descargar los datos."
+        android:key="Network"
+        android:defaultValue="Wi-Fi"
+        android:entries="@array/NetworkArray"
+        android:entryValues="@array/NetworkValues"
+        />
+
+    <ListPreference
+        android:title="Medida de temperatura"
+        android:summary="Elige la unidad de medida."
+        android:key="Temperature"
+        android:defaultValue="Celsius ºC"
+        android:entries="@array/TemperatureArray"
+        android:entryValues="@array/TemperatureValues"
+        />
+
+    <ListPreference
+        android:title="Como tomar los datos"
+        android:summary="Elige si quieres tomar los datos utilizando los sensores del móvil (si los tiene) o el sensor simulator."
+        android:key="Sensor"
+        android:defaultValue="Sensor device"
+        android:entries="@array/SensorArray"
+        android:entryValues="@array/SensorValues"
+        />
+</PreferenceScreen>

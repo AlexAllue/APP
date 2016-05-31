@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Connectivitat de xarxa"
+        android:summary="Es requereix connexio a internet per pujar / descarregar els dates"
+        android:key="Network"
+        android:defaultValue="Wi-Fi"
+        android:entries="@array/NetworkArray"
+        android:entryValues="@array/NetworkValues"
+        />
+
+    <ListPreference
+        android:title="Mesura de temperatura"
+        android:summary="Tria la unitat de mesura."
+        android:key="Temperature"
+        android:defaultValue="Celsius ºC"
+        android:entries="@array/TemperatureArray"
+        android:entryValues="@array/TemperatureValues"
+        />
+
+    <ListPreference
+        android:title="Com prendre les dades"
+        android:summary="Tria si vols prendre les dades utilizant els sensors del mobil (si en te) o el sensor simulator."
+        android:key="Sensor"
+        android:defaultValue="Sensor simulator"
+        android:entries="@array/SensorArray"
+        android:entryValues="@array/SensorValues"
+        />
+</PreferenceScreen>

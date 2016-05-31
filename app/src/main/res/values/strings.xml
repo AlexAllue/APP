@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Weather Now</string>
+    <string name="action_settings">Preferencias</string>
+
+    <string name="hint_user">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_confirm">Confirmar contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="btn_login">INICIAR SESIÓN</string>
+    <string name="btn_register">REGÍSTRATE</string>
+    <string name="btn_link_to_register">¿Aún no tienes cuenta? ¡Créala ahora!</string>
+    <string name="btn_link_to_login">¿Ya tienes cuenta? Inicia sesión.</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn_logout">DESCONECTARME</string>
+    <string name="wait">Iniciando sesión...</string>
+    <string name="goodbye">Hasta pronto</string>
+    <string name="wait2">Cerrando sesión...</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_send_email">ENVIAR</string>
+    <string name="btn_search">BUSCAR</string>
+    <string name="hint_issue">Asunto</string>
+    <string name="hint_description">Descripción</string>
+    <string name="hint_town">Población</string>
+    <string name="prompt_spinner">Selecciona el motivo</string>
+    <string name="error_issue">Escribe un asunto</string>
+    <string name="error_motive">Selecciona un motivo</string>
+    <string name="error_description">Escribe una descripción</string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="recent">RECIENTES</string>
+    <string name="all">TODAS</string>
+    <string name="null_user">Escribe un usuario</string>
+    <string name="null_pass">Escribe una contraseña</string>
+    <string name="null_confirm">Las contraseñas no coinciden</string>
+    <string name="null_email">Escribe un email</string>
+    <string name="bar_search">Buscar</string>
+    <string name="bar_map">Mapa</string>
+    <string name="bar_notification">Notificaciones</string>
+    <string name="bar_contact">Contacto</string>
+    <string name="null_town">Escribe una población</string>
+    <string name="no_user">El usuario no existe</string>
+    <string name="no_pass">La contraseña no es válida</string>
+
+    <string name="temperature">Temperatura</string>
+    <string name="temperatureInfo">0.0ºC</string>
+    <string name="humidity">Humedad</string>
+    <string name="humidityInfo">0.0%</string>
+    <string name="pressure">Presión atmosférica</string>
+    <string name="pressureInfo">0.0hPa</string>
+    <string name="altitude">Altitud</string>
+    <string name="altitudeInfo">0.0m</string>
+    <string name="subirDatos">Subir datos</string>
+    <string name="fechaSubida">Última subida: --</string>
+
+    <string name="no_net">No tienes conexión a internet</string>
+</resources>
